@@ -57,6 +57,12 @@ h6 {
 	.timeline-heading h4 {
 		font-size: 17.5px;
 	}
+	header.masthead{
+		height: 100vh;
+	}
+	.container{
+		vertical-align: middle;
+	}
 }
 
 @media (min-width: 768px) {
@@ -148,7 +154,7 @@ img::-moz-selection {
 		/*background-color: transparent;*/
 	}
 	#mainNav .navbar-brand {
-		font-size: 1.75em;
+		font-size: -webkit-xxx-large;
 		transition: all .3s
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
@@ -160,7 +166,7 @@ img::-moz-selection {
 		background-color: #212529
 	}
 	#mainNav.navbar-shrink .navbar-brand {
-		font-size: 1.25em;
+		font-size: xx-large;
 		padding: 12px 0
 	}
 }
@@ -196,10 +202,11 @@ header.masthead .intro-text .intro-heading {
 	font-size: 50px;
 	font-weight: 700;
 	line-height: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	color: #dd9c4c;
 	font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'
 }
+
 @media (min-width: 768px) {
 	header.masthead .intro-text {
 		padding-top: 300px;
@@ -614,4 +621,8 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
 	background-color: #fed136
+}
+button:focus .navbar-toggler .navbar-toggler-right collapsed{
+	outline: 5px auto ;
+	outline-color: #ffea94;
 }
